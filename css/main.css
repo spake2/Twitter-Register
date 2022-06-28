@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #A9A9A9;
+}
+
+main section.twitter_login {
+
+}
+
+main section.twitter_login > div.login_div {
+  width: 500px;
+  padding: 25px;
+  margin: 25px auto;
+  margin-top: 100px;
+  text-align: center;
+  background-color: #fbfbfb;
+  border-radius: 30px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+main section.twitter_login > div.login_div > a#logo {
+  display: inline-block;
+}
+
+main section.twitter_login > div.login_div >  a > img {
+  width: 40px;
+  height: auto;
+}
+
+main section.twitter_login > div.login_div > p.login {
+  margin: 20px 0 0 0;
+  vertical-align: sub;
+}
+
+main section.twitter_login > div.login_div > p.login > a {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 80px;
+  border: 1px solid #A9A9A9;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000000;
+}
+
+main section.twitter_login > div.login_div > p.login > a > img {
+  vertical-align: sub;
+  margin-right: 5px;
+}
+
+main section.twitter_login > div.login_div > p:not([class]) {
+  margin: 20px 0 0 0;
+  font-weight: bold;
+  width:100%;
+}
+
+main section.twitter_login > div.login_div > form.login {
+  display: inline-block;
+  margin: 20px 0 0 0;
+}
+
+main section.twitter_login > div.login_div > form.login > input {
+  width: 325px;
+  display: block;
+  padding: 20px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  outline-color: #1E90FF;
+  vertical-align: middle;
+  color: #6b6b6b;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+main section.twitter_login > div.login_div > form.login > input + input {
+  margin-top: 20px;
+}
+
+main section.twitter_login > div.login_div > form.login > button.next {
+  display: block;
+  width: 325px;
+  margin-top: 20px;
+  padding: 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #000000;
+}
+
+main section.twitter_login > div.login_div > form.login > p {
+  margin: 20px 0 0 0;
+  border: 1px solid #A9A9A9;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+main section.twitter_login > div.login_div > form.login > p > a {
+  width: 325px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+main section.twitter_login > div.login_div > form.login > aside {
+  width: 200px;
+  margin: 20px auto 0 auto;
+}
+
+main section.twitter_login > div.login_div > p.sign_up {
+  margin: 20px 0 0 0;
+  color: #A9A9A9;
+}
+
+main section.twitter_login > div.login_div > p.sign_up a {
+  margin: 20px 0 0 0;
+  text-decoration: none;
+  color: #00CED1;
+}

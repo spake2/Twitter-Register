@@ -1,0 +1,11 @@
+$(function(){
+  $("body").on("focus","input.telephone",function(){
+    $(this).css("background-color","#F0F8FF");
+  }).on("focus","input.pass",function(){
+    $(this).css("background-color","#F0F8FF");
+  }).on("blur","input.telephone",function(){
+    $(this).css("background-color","transparent");
+  }).on("blur","input.pass",function(){
+    $(this).css("background-color","transparent");
+    });
+  });
